@@ -29,8 +29,7 @@ def get_city():
         else:
             print('I can\'t find that city, try again\n')
     return city
-###
-# User filters the data according to month, year and see them all.
+
 def get_filter():
     """Filter data according to month, year and without filter"""
     filter = ""
@@ -40,8 +39,7 @@ def get_filter():
         if filter.lower() not in ['day', 'month', 'none']:
             print('You made a mistake, try again\n')
     return filter
-###
-# User enters which month he wants to see the data.
+
 def get_month():
     """Specify the data of the month that I want to see"""
     month = ""
