@@ -5,7 +5,7 @@
 Udacity Git project - program practice exercises
 
 ### Description
-This repository contains the Udacity's nanodegrees' projects completed by me.
+In this repository I do practice with exercises from the Udacity program
 
 ### Files used
 bikeshare.py
