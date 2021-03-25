@@ -58,8 +58,8 @@ def get_month():
 def get_day():
     """Specify the data of the month that I want to see"""
     day = ""
-    day_dict = {'m': 'Mon', 't': 'Tue', 'w': 'Wed',
-                'th': 'Thu', 'f': 'Fri', 'sa': 'Sat', 's': 'Sun'}
+    day_dict = {'m': 'Monday', 't': 'Tuesday', 'w': 'Wednesday',
+                'th': 'Thursday', 'f': 'Friday', 'sa': 'Saturday', 's': 'Sunday'}
     while day.lower() not in day_dict.keys():
         day = input('Which day would you like to see - M, T, W, Th, F, Sa, S\n')
         if day.lower() not in day_dict.keys():
