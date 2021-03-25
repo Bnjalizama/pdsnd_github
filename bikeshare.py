@@ -19,7 +19,7 @@ def get_city():
     city = ''
     while city.lower not in ['new york', 'chicago', 'washington']:
         city = input(
-            'Select the city you want to explore, New York, Chicago or Washington? \n')
+            'Select the city in the system, New York, Chicago or Washington? \n')
         if city.lower() == 'new york':
             return 'new york city'
         elif city.lower() == 'chicago':
