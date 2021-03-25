@@ -2,7 +2,7 @@
 26 Marzo 2021
 
 ### Project Title
-Udacity Git project - Programming for data Science Nanodegree Program
+Udacity Git project - program practice exercises
 
 ### Description
 This repository contains the Udacity's nanodegrees' projects completed by me.
